@@ -13,6 +13,7 @@ int main() {
 	vector<int> array2;
 
 	mergeSort(array,0,array.size()-1);
+	bubbleSort(array);
 
 	for (auto i : array) {
 		cout << i << "   ";
