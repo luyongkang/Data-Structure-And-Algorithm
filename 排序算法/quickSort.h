@@ -9,5 +9,5 @@ using namespace std;
 
 void quickSort(std::vector<int>& array,size_t left, size_t right);
 
-
+void urQuickSort(std::vector<int>& nums);
 #endif 
