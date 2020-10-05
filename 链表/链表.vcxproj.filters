@@ -18,9 +18,33 @@
     <ClInclude Include="MyList.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="reserveList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="findMiddle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cycleList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ComplexListCopy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="链表寻找环入口.cpp">
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reserveList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="findMiddle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cycleList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ComplexListCopy.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -139,10 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ComplexListCopy.h" />
+    <ClInclude Include="cycleList.h" />
+    <ClInclude Include="findMiddle.h" />
     <ClInclude Include="MyList.h" />
+    <ClInclude Include="reserveList.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="链表寻找环入口.cpp" />
+    <ClCompile Include="ComplexListCopy.cpp" />
+    <ClCompile Include="cycleList.cpp" />
+    <ClCompile Include="findMiddle.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="reserveList.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

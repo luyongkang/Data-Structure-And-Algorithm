@@ -68,7 +68,7 @@ vector<string> Permutation(string str) {
 
 
 
-//全排列非递归思路是在递归的每一层确定一个值
+//全排列递归思路是在递归的每一层确定一个值
 void PermutationRe(string str, string result) {
     if (str.empty())
         return;

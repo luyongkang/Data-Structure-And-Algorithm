@@ -1,13 +1,23 @@
 #ifndef MYLIST_H
 #define MYLIST_H
 
-class MyList {
+class ListNode 
+{
 public:
 	int data;
-	MyList* pNext;
+	ListNode* pNext;
 
-	MyList(int val) :data(val), pNext(nullptr) {};
+	ListNode(int val) :data(val), pNext(nullptr) {};
 
+};
+
+class ComplexListNode
+{
+public:
+	int data;
+	ComplexListNode* pNext;
+	ComplexListNode* random;
+	ComplexListNode(int val) :data(val), pNext(nullptr), random(nullptr) {};
 };
 
 #endif
